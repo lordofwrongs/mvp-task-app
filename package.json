@@ -18,4 +18,10 @@
     "yup": "^0.32.9",
     "react-scripts": "^4.0.0"
   }
+  "scripts": {
+  "start": "node server.js",
+  "build": "react-scripts build",
+  "client": "react-scripts start",
+  "dev": "concurrently \"npm:start\" \"npm:client\""
+}
 }
